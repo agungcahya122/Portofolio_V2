@@ -6,8 +6,8 @@ interface layoutProps {
 
 const layout: FC<layoutProps> = ({ children }) => {
   return (
-    <div className='w-full h-full overflow-auto'>
-      <div className='h-full overflow-auto'>{children}</div>
+    <div className='w-full h-screen overflow-auto'>
+      <div className='h-full overflow-auto bg-white'>{children}</div>
     </div>
   )
 }
